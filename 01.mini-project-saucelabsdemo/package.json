@@ -1,0 +1,13 @@
+{
+  "name": "01.mini-project-saucelabsdemo",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.2.8",
+    "@wdio/local-runner": "^9.2.8",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/spec-reporter": "^9.2.8"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
